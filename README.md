@@ -31,7 +31,7 @@ https://github.com/Michal78900/ProjectMER
 
 安装完插件本体后重启服务器
 
-插件会自动在下面的文件目录内插件文件夹
+插件会自动在下面的文件目录内生成音频文件夹
 
 音频文件夹目录所在位置\AppData\Roaming\EXILED
 
