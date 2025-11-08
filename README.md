@@ -3,6 +3,7 @@
 [插件依赖必须安装]
 
 https://github.com/DayLight-Team/AudioPlayer
+
 https://github.com/Michal78900/ProjectMER
 
 将AudioPlayer.dll安装在Exiled框架的dependencies文件夹
