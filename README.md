@@ -5,7 +5,7 @@
 > ⚠️ 必须安装以下依赖插件
 
 1. **AudioPlayer**  
-   下载地址：[https://github.com/DayLight-Team/AudioPlayer](https://github.com/DayLight-Team/AudioPlayer)  
+   下载地址：[https://github.com/Killers0992/AudioPlayerApi](https://github.com/Killers0992/AudioPlayerApi)  
    安装路径：将 `AudioPlayer.dll` 放入 Exiled 框架的 dependencies 文件夹  
    ```
    \AppData\Roaming\EXILED\Plugins\dependencies
