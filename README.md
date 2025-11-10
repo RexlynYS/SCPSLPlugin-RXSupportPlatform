@@ -97,7 +97,7 @@
 
 ## 关于插件
 
-- 代码开发：Rexlyn_佑上
+- 代码开发：Rexlyn_YS
 - 地图（MER原理图）：Anaxiar
 - 感谢 [LY-Breach项目] 所有成员
 
