@@ -8,7 +8,7 @@
 - 下载地址：SCPSLPlugin-RXSupportPlatform 项目的 Releases 页面
 - 安装路径：放入 LabAPI 的全局依赖文件夹
   ```
-  \AppData\Roaming\SCP Secret Laboratory\LabAPI\dependencies
+  \AppData\Roaming\SCP Secret Laboratory\LabAPI\dependencies\global
   ```
 
 ### 2. AudioPlayer
