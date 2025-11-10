@@ -23,7 +23,7 @@
      ```
      \AppData\Roaming\SCP Secret Laboratory\LabAPI\configs\ProjectMER\Schematics
      ```
-   - 将支援平台原理图文件夹（名称：`ZYPT`）复制到上述目录
+   - 将支援平台原理图文件夹（名称：`ZYPT`ZYPT）复制到上述目录
 
 
 ## 插件本体安装
