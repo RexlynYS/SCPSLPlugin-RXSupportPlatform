@@ -51,8 +51,11 @@ staff_spawn.ogg复制在基金会人员音频文件夹
 然后重启服务器插件安装完成
 
 
+[自定义插件]
 
 安装该插件第一次重启服务器后会在Exiled的Config文件生成插件配置文件
+
+具体路径为: \AppData\Roaming\EXILED\Configs\Plugins\rx_support_platform
 
 您可以在里面自定义该插件的功能(个性化)
 
