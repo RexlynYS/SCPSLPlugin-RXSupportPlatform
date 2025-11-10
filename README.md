@@ -61,7 +61,27 @@
    \AppData\Roaming\EXILED\Configs\Plugins\rx_support_platform
    ```
 
-2. 可在配置文件中自定义插件功能（个性化设置）
+2. 配置项说明（可直接在文件中修改）：
+   ```yaml
+   # 是否启用插件
+   is_enabled: true
+   # 是否启用调试模式(开启该模式启动插件反馈日志)
+   debug: false
+   # 玩家在支援平台指定范围内被击杀的原因
+   death_reason: '你处于支援平台刷新范围内，已被清除'
+   # 是否启用阵营出场音乐
+   enable_spawn_audio: true
+   # 基金会人员音频文件名（需放在基金会人员音频文件夹中）必须使用.ogg格式
+   foundation_staff_audio_file_name: 'staff_spawn.ogg'
+   # 基金会敌对音频文件名（需放在基金会敌对音频文件夹中）必须使用.ogg格式
+   foundation_enemy_audio_file_name: 'enemy_spawn.ogg'
+   # 是否启用直接传送（true则无倒计时直接传送）
+   instant_teleport: true
+   # 传送倒计时时间（秒），当InstantTeleport为false时生效
+   teleport_countdown: 10
+   # 支援平台原理图生效范围
+   schematic_range: 0
+   ```
 
 
 ## 关于插件
