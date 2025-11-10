@@ -1,71 +1,73 @@
-关于RXSupportPlatform [Bata]
+# RXSupportPlatform [Beta]
 
-[插件依赖必须安装]
+## 插件依赖安装
 
-https://github.com/DayLight-Team/AudioPlayer
+> ⚠️ 必须安装以下依赖插件
 
-https://github.com/Michal78900/ProjectMER
+1. **AudioPlayer**  
+   下载地址：[https://github.com/DayLight-Team/AudioPlayer](https://github.com/DayLight-Team/AudioPlayer)  
+   安装路径：将 `AudioPlayer.dll` 放入 Exiled 框架的 dependencies 文件夹  
+   ```
+   \AppData\Roaming\EXILED\Plugins\dependencies
+   ```
 
-将AudioPlayer.dll安装在Exiled框架的dependencies文件夹
-
-目录\AppData\Roaming\EXILED\Plugins\dependencies
-
-注意ProjectMER依赖的安装
-
-首先你需要将ProjectMER安装在LabAPI的插件文件夹
-
-\AppData\Roaming\SCP Secret Laboratory\LabAPI\plugins\global
-安装完毕后重启服务器
-
-打开这个目录\AppData\Roaming\SCP Secret Laboratory\LabAPI\configs\ProjectMER\Schematics
-
-将支援平台原理图文件夹(文件夹名称ZYPT)复制在该文件夹
-
-[插件本体安装]
-
-首先将RXSupportPlatform.dll安装在Exiled框架内
-
-目录\Roaming\EXILED\Plugins
-
-[刷新音频的安装]
-
-安装完插件本体后重启服务器
-
-插件会自动在下面的文件目录内生成音频文件夹
-
-音频文件夹目录所在位置\AppData\Roaming\EXILED
-
-打开RXSupportPlatformAudio文件夹你可以看见下面两个文件夹
-
-1. 基金会敌对音频文件夹
-
-2. 基金会人员音频文件夹
+2. **ProjectMER**  
+   下载地址：[https://github.com/Michal78900/ProjectMER](https://github.com/Michal78900/ProjectMER)  
+   安装步骤：  
+   - 将 ProjectMER 安装到 LabAPI 的全局插件文件夹  
+     ```
+     \AppData\Roaming\SCP Secret Laboratory\LabAPI\plugins\global
+     ```
+   - 安装完成后**重启服务器**  
+   - 打开原理图配置目录  
+     ```
+     \AppData\Roaming\SCP Secret Laboratory\LabAPI\configs\ProjectMER\Schematics
+     ```
+   - 将支援平台原理图文件夹（名称：`ZYPT`）复制到上述目录
 
 
-分别将
+## 插件本体安装
 
-enemy_spawn.ogg复制在基金会敌对音频文件夹
-
-staff_spawn.ogg复制在基金会人员音频文件夹
-
-然后重启服务器插件安装完成
-
-
-[自定义插件]
-
-安装该插件第一次重启服务器后会在Exiled的Config文件生成插件配置文件
-
-具体路径为: \AppData\Roaming\EXILED\Configs\Plugins\rx_support_platform
-
-您可以在里面自定义该插件的功能(个性化)
+1. 将 `RXSupportPlatform.dll` 放入 Exiled 框架插件目录  
+   ```
+   \AppData\Roaming\EXILED\Plugins
+   ```
 
 
-[关于插件]
+## 音频文件安装
 
-代码: Rexlyn_佑上
+1. 安装插件本体后**重启服务器**，插件会自动生成音频文件夹  
+   路径：  
+   ```
+   \AppData\Roaming\EXILED\RXSupportPlatformAudio
+   ```
 
-地图(MER原理图): Anaxiar
+2. 音频文件夹结构：  
+   - 基金会敌对音频文件夹  
+   - 基金会人员音频文件夹  
 
-以及[LY-Breach项目]所有成员
+3. 分别放入对应文件：  
+   - 将 `enemy_spawn.ogg` 放入 **基金会敌对音频文件夹**  
+   - 将 `staff_spawn.ogg` 放入 **基金会人员音频文件夹**  
 
-注意该插件仍在测试功能还未完善,待到正式版将公开源码
+4. 再次**重启服务器**，完成安装
+
+
+## 自定义配置
+
+1. 首次启动插件后，会在 Exiled 配置目录生成配置文件  
+   路径：  
+   ```
+   \AppData\Roaming\EXILED\Configs\Plugins\rx_support_platform
+   ```
+
+2. 可在配置文件中自定义插件功能（个性化设置）
+
+
+## 关于插件
+
+- 代码开发：Rexlyn_佑上  
+- 地图（MER原理图）：Anaxiar  
+- 感谢 [LY-Breach项目] 所有成员  
+
+> ⚠️ 注意：该插件仍处于测试阶段，功能尚未完善，正式版将公开源码。
